@@ -7,6 +7,7 @@
     import css from '$lib/assets/techno/CSS.svg';
     import javascript from '$lib/assets/techno/JavaScript.svg';
     import java from '$lib/assets/techno/Java.svg';
+    import c from '$lib/assets/techno/C.svg';
     import svelte from '$lib/assets/techno/Svelte.svg';
     import tailwind from '$lib/assets/techno/TailwindCSS.svg';
 </script>
@@ -42,6 +43,7 @@
                 <img src="{tailwind}" alt="Tailwind">
                 <img src="{svelte}" alt="Svelte">
                 <img src="{java}" alt="Java">
+                <img src="{c}" alt="C">
             </div>
         </div>
     </div>
