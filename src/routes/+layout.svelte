@@ -41,6 +41,8 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		align-items: center;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	.menu {
@@ -48,6 +50,7 @@
 		gap: 30px;
 		width: 50%;
 		align-items: center;
+		font-weight: bold;
 	}
 
 	.menu a {
@@ -56,6 +59,8 @@
 	}
 
 	.menu img {
+		margin: 0;
+		padding: 0;
 		height: 50px;
 		width: auto;
 	}
@@ -77,6 +82,8 @@
 		align-items: center;
 		margin-top: .75rem;
 		margin-bottom: .75rem;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	footer p {
