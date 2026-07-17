@@ -35,7 +35,7 @@
             <img src="{logo_oracle}" alt="Oracle_Bot">
         </div>
         <div class="techno">
-            <h1>Mes techno : </h1>
+            <h1>Ma Stack Technique : </h1>
             <div class="techno-icons">
                 <img src="{html}" alt="HTML">
                 <img src="{css}" alt="CSS">
@@ -55,6 +55,31 @@
         margin: 0 15% 10px;
         font-family: "Red Hat Display", sans-serif; 
     }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .card-perso,
+    .profil,
+    .card-oracle,
+    .card-archprod,
+    .techno {
+        animation: fadeInUp 0.6s ease-out both;
+    }
+
+    .card-perso { animation-delay: 0.05s; }
+    .profil { animation-delay: 0.15s; }
+    .card-oracle { animation-delay: 0.25s; }
+    .card-archprod { animation-delay: 0.35s; }
+    .techno { animation-delay: 0.45s; }
 
     .wrapper {
         display: grid;

@@ -28,6 +28,7 @@
 
 <main>
     <div class="cadre">
+        <h1 class="title">Contactez-moi</h1>
         {#if sent}
             <p>Merci ! Ton message a bien été envoyé.</p>
         {:else}
@@ -63,6 +64,15 @@
         width: 100%;
         padding: 40px;
         box-sizing: border-box;
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 
     form {
