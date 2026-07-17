@@ -11,7 +11,7 @@
 <header>
 	<nav>
 		<div class="menu">
-			<a href="/">Accueil</a>
+			<a href="/"><img src="{favicon}" alt=""></a>
 			<a href="programmes">Mes programmes</a>
 			<a href="roadmap">Roadmap</a>
 			<a href="contact">Me contacter</a>
@@ -38,19 +38,26 @@
 	nav {
 		display: flex;
 		justify-content: space-between;
-		padding-top: 1.75rem;
-		padding-bottom: 1.75rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		align-items: center;
 	}
 
 	.menu {
 		display: flex;
 		gap: 30px;
 		width: 50%;
+		align-items: center;
 	}
 
 	.menu a {
 		text-decoration: none;
 		color: white;
+	}
+
+	.menu img {
+		height: 50px;
+		width: auto;
 	}
 
 	.social {
