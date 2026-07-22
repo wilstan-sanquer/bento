@@ -5,11 +5,9 @@
     import logo_oracle from '$lib/assets/oracle_logo.png'
     import html from '$lib/assets/techno/HTML.svg';
     import css from '$lib/assets/techno/CSS.svg';
-    import javascript from '$lib/assets/techno/JavaScript.svg';
+    import typescript from '$lib/assets/techno/TypeScript.svg';
+    import nuxt from '$lib/assets/techno/NuxtJS.svg';
     import java from '$lib/assets/techno/Java.svg';
-    import c from '$lib/assets/techno/C.svg';
-    import svelte from '$lib/assets/techno/Svelte.svg';
-    import tailwind from '$lib/assets/techno/TailwindCSS.svg';
 </script>
 
 <main>
@@ -39,11 +37,9 @@
             <div class="techno-icons">
                 <img src="{html}" alt="HTML">
                 <img src="{css}" alt="CSS">
-                <img src="{javascript}" alt="Javascript">
-                <img src="{tailwind}" alt="Tailwind">
-                <img src="{svelte}" alt="Svelte">
+                <img src="{typescript}" alt="Typescript">
+                <img src="{nuxt}" alt="nuxt">
                 <img src="{java}" alt="Java">
-                <img src="{c}" alt="C">
             </div>
         </div>
     </div>
