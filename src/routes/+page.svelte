@@ -6,7 +6,7 @@
     import html from '$lib/assets/techno/HTML.svg';
     import css from '$lib/assets/techno/CSS.svg';
     import typescript from '$lib/assets/techno/TypeScript.svg';
-    import nuxt from '$lib/assets/techno/NuxtJS.svg';
+    import svelte from '$lib/assets/techno/Svelte.svg';
     import java from '$lib/assets/techno/Java.svg';
 </script>
 
@@ -38,7 +38,7 @@
                 <img src="{html}" alt="HTML">
                 <img src="{css}" alt="CSS">
                 <img src="{typescript}" alt="Typescript">
-                <img src="{nuxt}" alt="nuxt">
+                <img src="{svelte}" alt="svelte">
                 <img src="{java}" alt="Java">
             </div>
         </div>
