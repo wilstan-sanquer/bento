@@ -17,12 +17,18 @@
 
     <h2>Source :</h2>
     <div class="source">
-        <a href="https://carolanelefebvre.com/fr">Carolane Lefebvre</a>
-        <a href="https://keepio.fr/">Keepio</a>
+        <a href="https://carolanelefebvre.com/fr" target="_blank">Carolane Lefebvre</a>
+        <a href="https://keepio.fr/" target="_blank">Keepio</a>
     </div>
 </main>
 
 <style>
+    :global(body) {
+        background-color: #1a1a1a;
+        margin: 0 15% 10px;
+        font-family: "Red Hat Display", sans-serif;
+    }
+
     main {
         line-height: 1.6;
     }

@@ -3,7 +3,7 @@
 <main>
     <div class="cadre">
         <h1>Mentions Légales</h1>
-        
+
         <div class="contenu-mentions">
             <p>
                 Le Site est édité par M. Wilstan Sanquer, agissant en tant que particulier et assurant également la direction de la publication. Il peut être contacté directement depuis le formulaire de contact ou via le bouton e-mail de la barre de navigation.
@@ -23,6 +23,12 @@
 </main>
 
 <style>
+    :global(body) {
+        background-color: #1a1a1a;
+        margin: 0 15% 10px;
+        font-family: "Red Hat Display", sans-serif;
+    }
+
     .cadre {
         display: flex;
         flex-direction: column;

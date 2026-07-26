@@ -8,6 +8,12 @@
 </main>
 
 <style>
+    :global(body) {
+        background-color: #1a1a1a;
+        margin: 0 15% 10px;
+        font-family: "Red Hat Display", sans-serif;
+    }
+
     .cadre {
         display: flex;
         flex-direction: column;
