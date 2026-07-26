@@ -2,7 +2,6 @@
     import logo from '$lib/assets/favicon.svg'
     import cv from '$lib/documents/CV_WilstanSanquer_2026.pdf'
 </script>
-
 <main>
     <div class="cadre">
         <div class="documents">
@@ -12,7 +11,6 @@
         </div>
     </div>
 </main>
-
 <style>
     @keyframes fadeInUp {
         from {
@@ -24,11 +22,6 @@
             transform: translateY(0);
         }
     }
-
-    .documents {
-        animation: fadeInUp 0.6s ease-out both;
-    }
-
     .cadre {
         display: flex;
         flex-direction: column;
@@ -36,7 +29,6 @@
         height: 530px;
         width: 100%;
     }
-
     .documents {
         display: flex;
         flex-direction: column;
@@ -49,8 +41,11 @@
         border-radius: 20px;
         padding: 20px;
         gap: 20px;
+        animation: fadeInUp 0.6s ease-out both;
     }
-
+    .documents:nth-of-type(1) { animation-delay: 0.05s; }
+    .documents:nth-of-type(2) { animation-delay: 0.15s; }
+    .documents:nth-of-type(3) { animation-delay: 0.25s; }
     .documents img {
         width: auto;
         height: 50px;
@@ -58,7 +53,6 @@
         background-color: #1a1a1a;
         padding: 10px;
     }
-
     .documents a {
         display: flex;
         border: 1px solid #1a1a1a;
@@ -70,11 +64,9 @@
         padding: 10px;
         text-decoration: none;
     }
-
     .documents a:hover {
         background-color: #fa3d00;
     }
-
     .title-documents {
         color: white;
     }

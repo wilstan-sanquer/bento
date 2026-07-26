@@ -6,7 +6,6 @@
     let message = '';
     let sent = false;
     let error = false;
-
     async function handleSubmit(e) {
         e.preventDefault();
         try {
@@ -25,7 +24,6 @@
         }
     }
 </script>
-
 <main>
     <div class="cadre">
         <h1 class="title">Contactez-moi</h1>
@@ -42,12 +40,10 @@
                     <input type="email" placeholder="Email" bind:value={email} required>
                 </div>
                 <textarea placeholder="Message" bind:value={message} required></textarea>
-
                 <button type="submit">
                     Envoyer
                     <span class="arrow">→</span>
                 </button>
-
                 {#if error}
                     <p class="error">Une erreur est survenue, réessaie.</p>
                 {/if}
@@ -55,8 +51,18 @@
         {/if}
     </div>
 </main>
-
 <style>
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .cadre {
         border-radius: 20px;
         background-color: #2a2a2a;
@@ -65,7 +71,7 @@
         padding: 40px;
         box-sizing: border-box;
     }
-    
+
     .title {
         display: flex;
         justify-content: center;
@@ -73,19 +79,20 @@
         font-size: 50px;
         margin-top: 10px;
         margin-bottom: 40px;
+        animation: fadeInUp 0.6s ease-out both;
+        animation-delay: 0.05s;
     }
-
     form {
         display: flex;
         flex-direction: column;
         gap: 16px;
+        animation: fadeInUp 0.6s ease-out both;
+        animation-delay: 0.15s;
     }
-
     .row {
         display: flex;
         gap: 16px;
     }
-
     input, textarea {
         flex: 1;
         background-color: #1e1e1e;
@@ -96,21 +103,17 @@
         font-family: inherit;
         font-size: 15px;
     }
-
     input::placeholder, textarea::placeholder {
         color: #888;
     }
-
     textarea {
         min-height: 120px;
         resize: vertical;
     }
-
     input:focus, textarea:focus {
         outline: none;
         border-color: #d85a30;
     }
-
     button {
         display: flex;
         align-items: center;
@@ -125,15 +128,12 @@
         cursor: pointer;
         font-size: 15px;
     }
-
     button:hover {
         background-color: #c04a24;
     }
-
     .arrow {
         font-size: 16px;
     }
-
     .error {
         color: #e24b4a;
     }

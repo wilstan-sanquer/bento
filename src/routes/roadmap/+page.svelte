@@ -3,7 +3,7 @@
 <main>
     <div class="cadre">
         <h1>En Développement 🚧</h1>
-        <p>Mon parcours étudiant et professionnel est en cours de finalisation. <br>Revenez bientôt pour le découvrir.</p>
+        <p>De nouveaux projets sont en cours de développement. <br>Revenez bientôt pour les découvrir.</p>
     </div>
 </main>
 

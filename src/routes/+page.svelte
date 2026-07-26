@@ -7,7 +7,10 @@
     import css from '$lib/assets/techno/CSS.svg';
     import typescript from '$lib/assets/techno/TypeScript.svg';
     import svelte from '$lib/assets/techno/Svelte.svg';
+    import nuxt from '$lib/assets/techno/NuxtJS.svg';
     import java from '$lib/assets/techno/Java.svg';
+    import spring from '$lib/assets/techno/Spring.svg';
+    import rust from '$lib/assets/techno/Rust.svg';
 </script>
 
 <main>
@@ -15,8 +18,8 @@
         <div class="card-perso">
             <h1>Wilstan Sanquer</h1>
             <ul>
-                <li>Développeur Junior Frontend & Java</li>
-                <li>Étudiant BTS CIEL</li>
+                <li>Développeur Junior</li>
+                <li>Étudiant BTS CIEL, option IR</li>
             </ul>
         </div>
         <div class="profil">
@@ -38,8 +41,11 @@
                 <img src="{html}" alt="HTML">
                 <img src="{css}" alt="CSS">
                 <img src="{typescript}" alt="Typescript">
-                <img src="{svelte}" alt="svelte">
+                <img src="{svelte}" alt="Svelte">
+                <img src="{nuxt}" alt="Nuxt">
                 <img src="{java}" alt="Java">
+                <img src="{spring}" alt="Spring">
+                <img src="{rust}" alt="Rust">
             </div>
         </div>
     </div>
@@ -49,7 +55,7 @@
     :global(body) {
         background-color: #1a1a1a;
         margin: 0 15% 10px;
-        font-family: "Red Hat Display", sans-serif; 
+        font-family: "Red Hat Display", sans-serif;
     }
 
     @keyframes fadeInUp {
@@ -140,7 +146,7 @@
         grid-row: 3 / 5;
         align-items: center;
     }
-    
+
     .card-oracle h1 {
         color: white;
         text-align: center;
