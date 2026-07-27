@@ -12,6 +12,17 @@
 </main>
 
 <style>
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     :global(body) {
         background-color: #1a1a1a;
         margin: 0 15% 10px;
@@ -37,9 +48,11 @@
         border: 1px solid #1a1a1a;
         border-radius: 20px;
         margin: 40px;
-        padding: 10px;
+        padding: 20px;
         color: white;
         background-color: #1a1a1a;
+        animation: fadeInUp 0.6s ease-out both;
+        animation-delay: 0.05s;
     }
 
     .programmes p {
@@ -61,7 +74,7 @@
     .programmes:hover {
         color: #fa3d00;
         background-color: #3a3a3a;
-        border: 1px solid #3a3a3a;
+        border: 1px solid #fa3d00;
     }
 
     .programmes a:hover {

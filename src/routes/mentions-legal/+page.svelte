@@ -6,7 +6,7 @@
 
         <div class="contenu-mentions">
             <p>
-                Le Site est édité par M. Wilstan Sanquer, agissant en tant que particulier et assurant également la direction de la publication. Il peut être contacté directement depuis le formulaire de contact ou via le bouton e-mail de la barre de navigation.
+                Le Site est édité par M. Wilstan Sanquer, agissant en tant que particulier et assurant également la direction de la publication. Il peut être contacté directement depuis le formulaire de contact.
             </p>
 
             <p>
