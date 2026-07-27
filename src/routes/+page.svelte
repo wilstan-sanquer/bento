@@ -18,7 +18,7 @@
         <div class="card-perso">
             <h1>Wilstan Sanquer</h1>
             <ul>
-                <li>Développeur Junior</li>
+                <li>Développeur Junior · Indépendant</li>
                 <li>Étudiant BTS CIEL, option IR</li>
             </ul>
         </div>
@@ -191,6 +191,7 @@
         background-color: #2a2a2a;
         grid-row: 5 / 6;
         grid-column: 1 / 5;
+        overflow-x: auto;
     }
 
     .techno h1 {
