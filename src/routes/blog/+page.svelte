@@ -2,10 +2,6 @@
 <main>
     <div class="cadre">
         <div class="articles">
-            <a href="/blog/articles/muninn-mon-organisateur-de-projets-fait-main"><h1>Muninn, mon organisateur de projets fait main.</h1></a>
-            <p class="date">Publié le 26 juillet 2026</p>
-        </div>
-        <div class="articles">
             <a href="/blog/articles/ce-que-jai-construit-avec-arch-prod"><h1>Ce que j'ai construit avec Arch-Prod.</h1></a>
             <p class="date">Publié le 26 juillet 2026</p>
         </div>

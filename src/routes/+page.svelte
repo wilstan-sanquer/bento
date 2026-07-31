@@ -7,11 +7,8 @@
     import css from '$lib/assets/techno/CSS.svg';
     import typescript from '$lib/assets/techno/TypeScript.svg';
     import svelte from '$lib/assets/techno/Svelte.svg';
-    import nuxt from '$lib/assets/techno/NuxtJS.svg';
-    import php from '$lib/assets/techno/PHP.svg';
     import java from '$lib/assets/techno/Java.svg';
     import spring from '$lib/assets/techno/Spring.svg';
-    import rust from '$lib/assets/techno/Rust.svg';
 </script>
 
 <main>
@@ -43,11 +40,8 @@
                 <img src="{css}" alt="CSS">
                 <img src="{typescript}" alt="Typescript">
                 <img src="{svelte}" alt="Svelte">
-                <img src="{nuxt}" alt="Nuxt">
-                <img src="{php}" alt="PHP">
                 <img src="{java}" alt="Java">
                 <img src="{spring}" alt="Spring">
-                <img src="{rust}" alt="Rust">
             </div>
         </div>
     </div>
