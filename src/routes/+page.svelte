@@ -2,7 +2,6 @@
     //Importation des images pour la page de Bento
     import profil from '$lib/assets/profil.png';
     import logo_archprod from '$lib/assets/logo.png';
-    import logo_oracle from '$lib/assets/oracle_logo.png'
     import html from '$lib/assets/techno/HTML.svg';
     import css from '$lib/assets/techno/CSS.svg';
     import typescript from '$lib/assets/techno/TypeScript.svg';
