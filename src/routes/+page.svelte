@@ -29,9 +29,8 @@
                 <img src="{logo_archprod}" alt="Arch-Prod_logo">
             </a>
         </div>
-        <div class="card-oracle">
-            <h1>Oracle</h1>
-            <img src="{logo_oracle}" alt="Oracle_Bot">
+        <div class="card-vide">
+            
         </div>
         <div class="techno">
             <h1>Ma Stack Technique : </h1>
@@ -67,7 +66,7 @@
 
     .card-perso,
     .profil,
-    .card-oracle,
+    .card-vide,
     .card-archprod,
     .techno {
         animation: fadeInUp 0.6s ease-out both;
@@ -75,7 +74,7 @@
 
     .card-perso { animation-delay: 0.05s; }
     .profil { animation-delay: 0.15s; }
-    .card-oracle { animation-delay: 0.25s; }
+    .card-vide { animation-delay: 0.25s; }
     .card-archprod { animation-delay: 0.35s; }
     .techno { animation-delay: 0.45s; }
 
@@ -132,25 +131,11 @@
         width: auto;
     }
 
-    .card-oracle {
-        display: flex;
-        flex-direction: column;
+    .card-vide {
         border-radius: 20px;
         background: #2A2A2A;
-        background: linear-gradient(216deg, rgba(0, 0, 0, 1) 0%, rgba(169, 169, 241, 1) 100%);
         grid-column: 1;
         grid-row: 3 / 5;
-        align-items: center;
-    }
-
-    .card-oracle h1 {
-        color: white;
-        text-align: center;
-    }
-
-    .card-oracle img {
-        height: 100px;
-        width: auto;
     }
 
     .card-archprod {
