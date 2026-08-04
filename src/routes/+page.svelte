@@ -7,7 +7,6 @@
     import typescript from '$lib/assets/techno/TypeScript.svg';
     import svelte from '$lib/assets/techno/Svelte.svg';
     import java from '$lib/assets/techno/Java.svg';
-    import spring from '$lib/assets/techno/Spring.svg';
 </script>
 
 <main>
@@ -39,7 +38,6 @@
                 <img src="{typescript}" alt="Typescript">
                 <img src="{svelte}" alt="Svelte">
                 <img src="{java}" alt="Java">
-                <img src="{spring}" alt="Spring">
             </div>
         </div>
     </div>
