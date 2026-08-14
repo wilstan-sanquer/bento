@@ -4,8 +4,9 @@
     import logo_archprod from '$lib/assets/logo.png';
     import html from '$lib/assets/techno/HTML.svg';
     import css from '$lib/assets/techno/CSS.svg';
-    import typescript from '$lib/assets/techno/TypeScript.svg';
+    import javascript from '$lib/assets/techno/JavaScript.svg';
     import svelte from '$lib/assets/techno/Svelte.svg';
+    import nuxt from '$lib/assets/techno/NuxtJS.svg';
     import java from '$lib/assets/techno/Java.svg';
 </script>
 
@@ -15,7 +16,7 @@
             <h1>Wilstan Sanquer</h1>
             <ul>
                 <li>Développeur Junior · Indépendant</li>
-                <li>Étudiant BTS CIEL, option IR</li>
+                <li>Étudiant BTS cybersécurité, informatique et réseaux</li>
             </ul>
         </div>
         <div class="profil">
@@ -35,8 +36,9 @@
             <div class="techno-icons">
                 <img src="{html}" alt="HTML">
                 <img src="{css}" alt="CSS">
-                <img src="{typescript}" alt="Typescript">
+                <img src="{javascript}" alt="Javascript">
                 <img src="{svelte}" alt="Svelte">
+                <img src="{nuxt}" alt="Nuxt">
                 <img src="{java}" alt="Java">
             </div>
         </div>
